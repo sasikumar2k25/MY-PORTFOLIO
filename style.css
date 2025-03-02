@@ -511,7 +511,7 @@ footer{
 }
 .front {
     background-color: white;
-    color: white;
+    color: black;
     
 }
 .back {
@@ -521,4 +521,7 @@ footer{
 }
 .front img{
     height: 200px;
+}
+.don{
+    color: #111;
 }
