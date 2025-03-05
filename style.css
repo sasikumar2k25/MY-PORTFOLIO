@@ -34,7 +34,8 @@ header{
     text-decoration: none;
 }
 .logo{
-    color: white;
+    color: #1DA1F2;
+    
     font-size: 1.3rem;
     font-weight: 600;
     text-wrap: nowrap ;
@@ -269,6 +270,37 @@ color: #1DA1F2;
     background-color: black;
     color: white;
     
+}
+
+/* Responsive Design for about*/
+@media (max-width: 768px) {
+    .about-info {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .matter {
+        text-align: center;
+    }
+
+    .about-info img {
+        width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-title {
+        font-size: 1.8rem;
+    }
+
+    .matter {
+        font-size: 0.95rem;
+        padding: 0 10px;
+    }
+
+    .about-info img {
+        width: 180px;
+    }
 }
 .contact{
     margin: 25px 5px;
